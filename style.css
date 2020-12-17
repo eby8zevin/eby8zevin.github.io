@@ -5,7 +5,6 @@ body {
   font-family: 'Raleway';
   font-size: 16px;
   line-height: 1.8em;
-  background-image: url('./assets/img/bg.jpg');
 }
 
 a {
@@ -33,7 +32,7 @@ header, main, footer {
 header {
   padding: 2em;
   text-align: center;
-  background-image: url('');
+  background-image: url('./assets/img/bg.jpg');
   background-size: cover;
   background-position: fixed;
   color: white;
@@ -45,9 +44,8 @@ header section {
 }
 
 header img {
-  border-radius: 100%;
+  border-radius: 50%;
   max-width: 150px;
-  max-height: 150px;
 }
 
 h1 {
@@ -143,9 +141,9 @@ ul.job-description li:before{
 
 footer {
  padding: 1em 1.5em;
- background: black;
+ background: #A7B8BF;
  color: white;
- text-align: center;
+ text-align: right;
 }
 
 @media only screen and (max-width: 768px) {
