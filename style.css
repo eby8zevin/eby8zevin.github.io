@@ -5,6 +5,7 @@ body {
   font-family: 'Raleway';
   font-size: 16px;
   line-height: 1.8em;
+  background-image: url('./assets/img/bg.jpg');
 }
 
 a {
@@ -32,7 +33,7 @@ header, main, footer {
 header {
   padding: 2em;
   text-align: center;
-  background-image: url('./assets/img/bg.jpg');
+  
   background-size: cover;
   background-position: fixed;
   color: white;
@@ -143,7 +144,7 @@ footer {
  padding: 1em 1.5em;
  background: #000000;
  color: white;
- text-align: right;
+ text-align: center;
 }
 
 @media only screen and (max-width: 768px) {
