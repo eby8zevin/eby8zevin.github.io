@@ -142,7 +142,7 @@ ul.job-description li:before{
 
 footer {
  padding: 1em 1.5em;
- background: #80000000;
+ background: black(0.5);
  color: white;
  text-align: center;
 }
