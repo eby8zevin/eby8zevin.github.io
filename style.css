@@ -48,10 +48,10 @@ header section {
   max-width: 640px;
 }
 
-/* header img {
+header img {
   border-radius: 50%;
   max-width: 150px;
-} */
+}
 
 h1 {
   text-transform: uppercase;
