@@ -150,7 +150,7 @@ footer {
  text-align: center;
 }
 
-@media only screen and (max-width: 768px) {
+/* @media only screen and (max-width: 768px) {
   .course {
     display: block;
   }
@@ -172,4 +172,4 @@ footer {
   footer {
     text-align: center;
   }
-}
+} */
