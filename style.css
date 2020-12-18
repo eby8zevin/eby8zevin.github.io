@@ -6,10 +6,44 @@ body {
   font-size: 16px;
   line-height: 1.8em;
   background-image: url("./assets/img/bg.jpg");
-  background-color: #cccccc;
-  height: 500px;
   background-position: center;
   background-repeat: no-repeat, repeat;
   background-size: cover;
   position: relative;
+}
+
+a {
+  color: #1C9C94;
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 0.5;
+}
+
+article {
+  padding:0 1em;
+}
+
+section{
+  margin: 1em;
+  padding: 1em;
+}
+
+header, main, footer {
+  margin: 0 auto;
+}
+
+header {
+  padding: 2em;
+  text-align: center;
+/*   background-image: url('./');
+  background-size: cover;
+  background-position: fixed; */
+  color: white;
+}
+
+header section {
+  margin: 0 auto;
+  max-width: 640px;
 }
