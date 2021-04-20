@@ -3,7 +3,15 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Ahmad Abu Hasan - Android Developer</title>
+<!--title>Ahmad Abu Hasan - Android Developer</title-->
+    <script language='JavaScript'>
+        var txt="Ahmad Abu Hasan - Android Developer";
+        var speed=300;
+        var refresh=null;
+        function action() { document.title=txt;
+        txt=txt.substring(1,txt.length)+txt.charAt(0);
+        refresh=setTimeout("action()",speed);}action();
+    </script>
 <meta name="description" content="">
 <meta name="author" content="">
 
