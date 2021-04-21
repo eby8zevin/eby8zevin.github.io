@@ -204,7 +204,7 @@ hr {
 /* Skills Section */
 #skills {
 	padding: 100px 0;
-	background: #7bc3d1;
+	background: #c1c1c1; /*#7bc3d1;*/
 }
 #skills h2 {
 	color: #fff;
@@ -382,7 +382,7 @@ ol.type li a:hover {
 /* Achivements Section */
 #achievements {
 	padding: 100px 0;
-	background: #7bc3d1;
+	background: #c1c1c1; /*#7bc3d1;*/
 }
 #achievements h2 {
 	color: #fff;
@@ -512,7 +512,7 @@ ol.type li a:hover {
 #contact {
 	padding: 100px 0 40px 0;
 	color: #121d1f;
-	background: #7bc3d1;
+	background: #c1c1c1; /*#7bc3d1;*/
 }
 #contact h2 {
 	color: #fff;
