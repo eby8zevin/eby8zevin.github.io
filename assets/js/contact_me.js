@@ -17,15 +17,16 @@ $(function() {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
             $.ajax({
-                url: "//formspree.io/f/xzbyzjlj",
-                type: "POST",
+                url: "https://formspree.io/f/xzbyzjlj",
+                //type: "POST",
+                method: "POST",
                 data: {
                     name: name,
                     email: email,
                     message: message
                 },
                 cache: false,
-                success: function(data) {
+                success: function() {
                     // Success message
                     $('#success').html("<div class='alert alert-success'>");
                     $('#success > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
