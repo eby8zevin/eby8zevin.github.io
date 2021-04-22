@@ -270,7 +270,7 @@ ol.type li {
 	margin-left: 20px;
 }
 ol.type li a {
-	background: #7bc3d1;
+	background: #c1c1c1; /*#7bc3d1;*/
 	color: #fff;
 	padding: 6px 14px;
 }
