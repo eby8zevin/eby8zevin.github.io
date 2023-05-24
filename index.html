@@ -5,9 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Maintenance. . .</title>
-<!--     <script type="text/javascript">
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="https://github.com/fluidicon.png"
+    />
+    <!-- <script type="text/javascript">
       function redirect() {
-        window.location = "https://ahmadabuhasan.herokuapp.com/";
+        window.location = "https://github.com/eby8zevin";
       }
       setTimeout("redirect()", 2000);
     </script> -->
@@ -23,5 +28,15 @@
       allowfullscreen="true"
       allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
     ></iframe>
+
+    <script>
+      let docTitle = document.title;
+      window.addEventListener("blur", () => {
+        document.title = "Come back :(";
+      });
+      window.addEventListener("focus", () => {
+        document.title = docTitle;
+      });
+    </script>
   </body>
 </html>
