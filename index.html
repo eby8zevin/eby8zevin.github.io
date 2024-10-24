@@ -1,42 +1,617 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="no-js">
   <head>
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-4M84ZLZXJN"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-4M84ZLZXJN');
+    </script>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Maintenance. . .</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <title>Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="portfolio" />
+    <meta name="keywords" content="portfolio" />
+    <meta name="author" content="lmpixels" />
+    <link rel="shortcut icon" href="favicon/favicon.ico">
+
+    <link rel="stylesheet" href="css/reset.css" type="text/css">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css" type="text/css">
+    <link rel="stylesheet" href="css/animations.css" type="text/css">
+    <link rel="stylesheet" href="css/perfect-scrollbar.css" type="text/css">
+    <link rel="stylesheet" href="css/owl.carousel.css" type="text/css">
+    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="favicon/apple-touch-icon.png"
+    />
     <link
       rel="icon"
-      type="image/x-icon"
-      href="https://github.com/fluidicon.png"
+      type="image/png"
+      sizes="32x32"
+      href="favicon/favicon-32x32.png"
     />
-    <!-- <script type="text/javascript">
-      function redirect() {
-        window.location = "https://github.com/eby8zevin";
-      }
-      setTimeout("redirect()", 2000);
-    </script> -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="favicon/site.webmanifest" />
   </head>
+
   <body>
-    <iframe
-      src="https://embed.lottiefiles.com/animation/53968"
-      width="600"
-      height="600"
-      style="border: none; overflow: hidden; display: block; margin: 0 auto"
-      scrolling="yes"
-      frameborder=".6"
-      allowfullscreen="true"
-      allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
-    ></iframe>
+    <!-- Animated Background -->
+    <div class="lm-animated-bg" style="background-image: url(img/main_bg.png);"></div>
+    <!-- /Animated Background -->
+
+    <!-- Loading animation -->
+    <div class="preloader">
+      <div class="preloader-animation">
+        <div class="preloader-spinner">
+        </div>
+      </div>
+    </div>
+    <!-- /Loading animation -->
+
+    <div class="page">
+      <div class="page-content">
+
+          <header id="site_header" class="header mobile-menu-hide">
+            <div class="header-content">
+              <div class="header-photo">
+                <img src="https://github.com/eby8zevin.png" alt="Ahmad Abu Hasan">
+              </div>
+              <div class="header-titles">
+                <h3>Ahmad Abu Hasan</h3>
+                <h4>Mobile Developer</h4>
+              </div>
+            </div>
+
+            <ul class="main-menu">
+              <li class="active">
+                <a href="#home" class="nav-anim">
+                  <span class="menu-icon lnr lnr-home"></span>
+                  <span class="link-text">Home</span>
+                </a>
+              </li>
+              <li>
+                <a href="#about-me" class="nav-anim">
+                  <span class="menu-icon lnr lnr-user"></span>
+                  <span class="link-text">About Me</span>
+                </a>
+              </li>
+              <li>
+                <a href="#resume" class="nav-anim">
+                  <span class="menu-icon lnr lnr-graduation-hat"></span>
+                  <span class="link-text">Resume</span>
+                </a>
+              </li>
+              <li>
+                <a href="#portfolio" class="nav-anim">
+                  <span class="menu-icon lnr lnr-briefcase"></span>
+                  <span class="link-text">Portfolio</span>
+                </a>
+              </li>
+              <li>
+                <a href="#contact" class="nav-anim">
+                  <span class="menu-icon lnr lnr-envelope"></span>
+                  <span class="link-text">Contact</span>
+                </a>
+              </li>
+            </ul>
+
+            <div class="social-links">
+              <ul>
+                <li><a href="https://www.linkedin.com/in/ahmadabuhasan" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+                <li><a href="https://www.instagram.com/eby.dev" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="https://twitter.com/eby_dev" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="https://github.com/eby8zevin" target="_blank"><i class="fab fa-github"></i></a></li>
+                <li><a href="https://g.dev/ahmadabuhasan" target="_blank"><i class="fab fa-google-play"></i></a></li>
+              </ul>
+            </div>
+
+            <div class="header-buttons">
+              <a href="#contact" class="btn btn-primary">Contact Me</a>
+            </div>
+
+            <div class="copyrights">© 2021 All rights reserved.</div>
+          </header>
+
+          <!-- Mobile Navigation -->
+          <div class="menu-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <!-- End Mobile Navigation -->
+
+          <!-- Arrows Nav -->
+          <div class="lmpixels-arrows-nav">
+            <div class="lmpixels-arrow-right"><i class="lnr lnr-chevron-right"></i></div>
+            <div class="lmpixels-arrow-left"><i class="lnr lnr-chevron-left"></i></div>
+          </div>
+          <!-- End Arrows Nav -->
+
+          <div class="content-area">
+            <div class="animated-sections">
+              <!-- Home Subpage -->
+              <section data-id="home" class="animated-section start-page">
+                <div class="section-content vcentered">
+
+                    <div class="row">
+                      <div class="col-sm-12 col-md-12 col-lg-12">
+                        <div class="title-block">
+                          <h2>Hello World 👋🏻, I'm a</h2>
+                          <div class="owl-carousel text-rotation">                                    
+                            <div class="item">
+                              <div class="sp-subtitle">Software Engineer</div>
+                            </div>
+                            
+                            <div class="item">
+                              <div class="sp-subtitle">Mobile Developer</div>
+                            </div>
+
+                            <div class="item">
+                              <div class="sp-subtitle">Security Enthusiast</div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                </div>
+              </section>
+              <!-- End of Home Subpage -->
+
+              <!-- About Me Subpage -->
+              <section data-id="about-me" class="animated-section">
+                <div class="section-content">
+                  <div class="page-title">
+                    <h2>About <span>Me</span></h2>
+                  </div>
+
+                  <!-- Personal Information -->
+                  <div class="row">
+                    <div class="col-xs-12 col-sm-7">
+                      <p>A Mobile Developer with 2 years of experience in Android and Flutter application development. Proficient in Java, Kotlin, and Dart, with in-depth experience in building RESTful APIs-based applications and integrating technologies such as face recognition and online payment systems. I have worked on various industry projects, including SaaS, Attendance Applications, Healthcare Services, and etc. I am eager to continue growing in mobile application development and am interested in contributing to the creation of innovative and efficient technology solutions.</p>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-5">
+                      <div class="info-list">
+                        <ul>
+                          <li>
+                            <span class="title"><i class="bi bi-telephone-fill"></i></span>
+                            <span class="value">...</span>
+                          </li>
+
+                          <li>
+                            <span class="title"><i class="bi bi-envelope-at-fill"></i></span>
+                            <span class="value">...</span>
+                          </li>
+
+                          <li>
+                            <span class="title"><i class="bi bi-geo-alt-fill"></i></span>
+                            <span class="value">East Java, Indonesia</span>
+                          </li>
+
+                          <li>
+                            <span class="title"><i class="bi bi-globe2"></i></span>
+                            <span class="value"><a href="https://connect-with-eby.web.app">connect-with-eby</a></span>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- End of Personal Information -->
+
+                </div>
+              </section>
+              <!-- End of About Me Subpage -->
+
+              <!-- Resume Subpage -->
+              <section data-id="resume" class="animated-section">
+                <div class="section-content">
+                  <div class="page-title">
+                    <h2>Resume</h2>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-xs-12 col-sm-7">
+
+                      <!-- Experience -->
+                      <div class="block-title">
+                        <h3>Experience</h3>
+                      </div>
+
+                      <div class="timeline timeline-second-style clearfix">
+                        <div class="timeline-item clearfix">
+                          <div class="left-part">
+                            <h5 class="item-period">July 2023 - October 2024</h5>
+                            <span class="item-company">CV. Natusi</span>
+                          </div>
+                          <div class="divider"></div>
+                          <div class="right-part">
+                            <h4 class="item-title">Programmer Mobile</h4>
+                            <p>Mojokerto, East Java, Indonesia</p>
+                          </div>
+                        </div>
+
+                        <div class="timeline-item clearfix">
+                          <div class="left-part">
+                            <h5 class="item-period">September 2022 - April 2023</h5>
+                            <span class="item-company">Indoweb.id</span>
+                          </div>
+                          <div class="divider"></div>
+                          <div class="right-part">
+                            <h4 class="item-title">Mobile Developer</h4>
+                            <p>Kediri, East Java, Indonesia</p>
+                          </div>
+                        </div>
+
+                      </div>
+                      <!-- End of Experience -->
+
+                      <div class="white-space-50"></div>
+                      
+                      <!-- Education -->
+                      <div class="block-title">
+                        <h3>Education</h3>
+                      </div>
+                      
+                      <div class="timeline timeline-second-style clearfix">
+                        <div class="timeline-item clearfix">
+                          <div class="left-part">
+                            <h5 class="item-period">2017 - 2021</h5>
+                            <span class="item-company">STMIK Yadika Bangil</span>
+                          </div>
+                          <div class="divider"></div>
+                          <div class="right-part">
+                            <h4 class="item-title">Informatics Engineering</h4>
+                            <p>Pasuruan, East Java, Indonesia</p>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- End of Education-->
+                    </div>
+
+                    <!-- Sidebar -->
+                    <div class="col-xs-12 col-sm-5">
+                      <!-- Skills Android-->
+                      <div class="block-title">
+                        <h3>Skills Android Dev</h3>
+                      </div>
+
+                      <ul class="knowledges">
+                        <li>Kotlin</li>
+                        <li></li>
+                        <li>MVVM</li>
+                        <li>MVP</li>
+                        <li></li>
+                        <li>RxJava</li>
+                        <li>Flow</li>
+                        <li></li>
+                        <li>OkHttp</li>
+                        <li>Retrofit</li>
+                        <li></li>
+                        <li>Room</li>
+                        <li></li>
+                        <li>Koin</li>
+                        <li>Hilt</li>
+                        <li></li>
+                        <li>Mockito</li>
+                        <li>Espresso</li>
+                        <li></li>
+                        <li>Firebase</li>
+                        <li></li>
+                        <li>Git</li>
+                        <li></li>
+                        <li>Playstore</li>
+                        <li></li>
+                        <li>Etc.</li>
+                      </ul>
+                      <!-- End of Skills Android-->
+
+                      <div class="white-space-50"></div>
+
+                      <!-- Skills Flutter-->
+                      <div class="block-title">
+                        <h3>Skills Flutter Dev</h3>
+                      </div>
+
+                      <ul class="knowledges">
+                        <li>Dart</li>
+                        <li></li>
+                        <li>BLOC</li>
+                        <li>GetX</li>
+                        <li></li>
+                        <li>Dio</li>
+                        <li></li>
+                        <li>Hive</li>
+                        <li></li>
+                        <li>Firebase</li>
+                        <li></li>
+                        <li>Git</li>
+                        <li></li>
+                        <li>Playstore</li>
+                        <li>Appstore</li>
+                        <li></li>
+                        <li>Etc.</li>
+                      </ul>
+                      <!-- End of Skills Flutter-->
+
+                    </div>
+                    <!-- End of Skills -->
+                  </div>
+                
+                </div>
+              </section>
+              <!-- End of Resume Subpage -->
+
+              <!-- Portfolio Subpage -->
+              <section data-id="portfolio" class="animated-section">
+                <div class="section-content">
+                  <div class="page-title">
+                    <h2>Portfolio</h2>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-xs-12 col-sm-12">
+                      <!-- Portfolio Content -->
+                      <div class="portfolio-content">
+
+                        <ul class="portfolio-filters">
+                          <li class="active">
+                            <a class="filter btn btn-sm btn-link" data-group="category_all">All</a>
+                          </li>
+                          <li>
+                            <a class="filter btn btn-sm btn-link" data-group="category_android">Android Native</a>
+                          </li>
+                          <li>
+                            <a class="filter btn btn-sm btn-link" data-group="category_flutter">Flutter</a>
+                          </li>
+                          <li>
+                            <a class="filter btn btn-sm btn-link" data-group="category_web">Web</a>
+                          </li>
+                        </ul>
+
+                        <!-- Portfolio Grid -->
+                        <div class="portfolio-grid three-columns">
+
+                          <!-- native 1 -->
+                          <figure class="item standard" data-groups='["category_all", "category_android"]'>
+                            <div class="portfolio-item-img">
+                              <img src="img/portfolio/android/epakon.png" alt="Android Project 3" title="" />
+                              <a href="content/portfolio/android/epakon.html" class="ajax-page-load"></a>
+                            </div>
+
+                            <i class="fa fa-mobile"></i>
+                            <h4 class="name">e-Pakon SiGanteng</h4>
+                            <span class="category">Android Native</span>
+                          </figure>
+
+                          <!-- native 2 -->
+                          <figure class="item standard" data-groups='["category_all", "category_android"]'>
+                            <div class="portfolio-item-img">
+                              <img src="img/portfolio/android/admin_sekolah.png" alt="Android Project 2" title="" />
+                              <a href="content/portfolio/android/admin_sekolah.html" class="ajax-page-load"></a>
+                            </div>
+
+                            <i class="fa fa-mobile"></i>
+                            <h4 class="name">AdminSekolah</h4>
+                            <span class="category">Android Native</span>
+                          </figure>
+
+                          <!-- native 3 -->
+                          <figure class="item standard" data-groups='["category_all", "category_android"]'>
+                            <div class="portfolio-item-img">
+                              <img src="img/portfolio/android/epesantren.png" alt="Android Project 1" title="" />
+                              <a href="content/portfolio/android/epesantren.html" class="ajax-page-load"></a>
+                            </div>
+
+                            <i class="fa fa-mobile"></i>
+                            <h4 class="name">ePesantren</h4>
+                            <span class="category">Android Native</span>
+                          </figure>
+
+                          <!-- flutter 1 -->
+                          <figure class="item standard" data-groups='["category_all", "category_flutter"]'>
+                            <div class="portfolio-item-img">
+                              <img src="img/portfolio/flutter/sg_sehat.png" alt="Flutter Project 1" title="" />
+                              <a href="content/portfolio/flutter/sg_sehat.html" class="ajax-page-load"></a>
+                            </div>
+
+                            <i class="fa fa-mobile"></i>
+                            <h4 class="name">SG Sehat</h4>
+                            <span class="category">Flutter</span>
+                          </figure>
+
+                          <!-- web 1 -->
+                          <figure class="item standard" data-groups='["category_all", "category_web"]'>
+                            <div class="portfolio-item-img">
+                              <img src="img/portfolio/web/note_app.png" alt="Web 1" title="" />
+                              <a href="content/portfolio/web/note_app.html" class="ajax-page-load"></a>
+                            </div>
+
+                            <i class="fa fa-user-secret"></i>
+                            <h4 class="name">Note Apps</h4>
+                            <span class="category">Web</span>
+                          </figure>
+
+                          <!-- web 2 -->
+                          <figure class="item standard" data-groups='["category_all", "category_web"]'>
+                            <div class="portfolio-item-img">
+                              <img src="img/portfolio/web/bookshelf.png" alt="Web 2" title="" />
+                              <a href="content/portfolio/web/bookshelf.html" class="ajax-page-load"></a>
+                            </div>
+
+                            <i class="fa fa-user-secret"></i>
+                            <h4 class="name">Bookshelf</h4>
+                            <span class="category">Web</span>
+                          </figure>
+
+                        </div>
+                      </div>
+                      <!-- End of Portfolio Content -->
+                    </div>
+                  </div>
+                </div>
+              </section>
+              <!-- End of Portfolio Subpage -->
+
+              <!-- Contact Subpage -->
+              <section data-id="contact" class="animated-section">
+                <div class="section-content">
+                  <div class="page-title">
+                    <h2>Contact</h2>
+                  </div>
+
+                  <div class="row">
+                    <!-- Contact Info -->
+                    <div class="col-xs-12 col-sm-4">
+                      <div class="lm-info-block gray-default">
+                        <i class="lnr lnr-map-marker"></i>
+                        <h4>Pasuruan, Indonesia</h4>
+                        <span class="lm-info-block-value"></span>
+                        <span class="lm-info-block-text"></span>
+                      </div>
+
+                      <div class="lm-info-block gray-default">
+                        <i class="lnr lnr-checkmark-circle"></i>
+                        <h4>Freelance Available</h4>
+                        <span class="lm-info-block-value"></span>
+                        <span class="lm-info-block-text"></span>
+                      </div>
+
+                    </div>
+                    <!-- End of Contact Info -->
+
+                    <!-- Contact Form -->
+                    <div class="col-xs-12 col-sm-8">
+                      <div id="map" class="map"></div>
+                      <div class="block-title">
+                        <h3>How Can I <span>Help You?</span></h3>
+                      </div>
+
+                      <form id="contact_form" class="contact-form">
+
+                        <div class="messages"></div>
+
+                        <div class="controls one-columns">
+                          <div class="fields clearfix">
+                            <div class="left-column">
+                              <div class="form-group form-group-with-icon">
+                                <input id="form_name" type="text" name="name" class="form-control" placeholder="" required="required" data-error="Name is required.">
+                                <label>Full Name</label>
+                                <div class="form-control-border"></div>
+                                <div class="help-block with-errors"></div>
+                              </div>
+
+                              <div class="form-group form-group-with-icon">
+                                <input id="form_email" type="email" name="email" class="form-control" placeholder="" required="required" data-error="Valid email is required.">
+                                <label>Email Address</label>
+                                <div class="form-control-border"></div>
+                                <div class="help-block with-errors"></div>
+                              </div>
+
+                              <div class="form-group form-group-with-icon">
+                                <input id="form_subject" type="text" name="subject" class="form-control" placeholder="" required="required" data-error="Subject is required.">
+                                <label>Subject</label>
+                                <div class="form-control-border"></div>
+                                <div class="help-block with-errors"></div>
+                              </div>
+                            </div>
+                           
+                          </div>
+
+                          <input id="submit_button_contact" type="submit" class="button btn-send" value="Send message">
+                        </div>
+                      </form>
+
+                      <script>
+                        document.getElementById("submit_button_contact").addEventListener("click", function(event) {
+                          event.preventDefault(); // Prevent the form from submitting
+                      
+                          var name = document.getElementById("form_name").value;
+                          var email = document.getElementById("form_email").value;
+                          var subject = document.getElementById("form_subject").value;
+                      
+                          // Validasi name
+                          if (name === "") {
+                            alert("Name is Required!");
+                            return;
+                          }
+                      
+                          // Validasi email
+                          var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+                          if (!emailRegex.test(email)) {
+                            alert("Valid email is Required!");
+                            return;
+                          }
+                      
+                          // Validasi subject
+                          if (subject === "") {
+                            alert("Subject is Required!");
+                            return;
+                          }
+                      
+                          var url = "https://username.typeform.com/to/token#name=" + encodeURIComponent(name) +
+                                    "&email=" + encodeURIComponent(email) +
+                                    "&subject=" + encodeURIComponent(subject);
+                      
+                          window.open(url, "_blank");
+                        });
+                      </script>
+
+                    </div>
+                    <!-- End of Contact Form -->
+                  </div>
+
+                </div>
+              </section>
+              <!-- End of Contact Subpage -->
+            </div>
+          </div>
+
+      </div>
+    </div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/modernizr.custom.js"></script>
+    <script src="js/animating.js"></script>
+
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+
+    <script src='js/perfect-scrollbar.min.js'></script>
+    <script src='js/jquery.shuffle.min.js'></script>
+    <script src='js/masonry.pkgd.min.js'></script>
+    <script src='js/owl.carousel.min.js'></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
 
     <script>
-      let docTitle = document.title;
-      window.addEventListener("blur", () => {
-        document.title = "Come back :(";
-      });
-      window.addEventListener("focus", () => {
-        document.title = docTitle;
-      });
+      function myMap() {
+          var myCenter = new google.maps.LatLng(-7.640622, 112.906478);
+          var mapCanvas = document.getElementById("map");
+          var mapOptions = { center: myCenter, zoom: 10 };
+          var map = new google.maps.Map(mapCanvas, mapOptions);
+          var marker = new google.maps.Marker({ position: myCenter });
+          marker.setMap(map);
+      }
     </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCLXpIYHjNzhWt7kQakIQqFxFd0NRgz8lM&callback=myMap" async defer></script>
+    <script src="js/jquery.googlemap.js"></script>
+    <script src="js/validator.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>
